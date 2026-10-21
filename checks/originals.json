@@ -1,0 +1,7 @@
+{
+  "tests/test_logic.py": "119c995b3a4430c1c8b9b056604816da2514a900166cf2a6c4a8bd935d7ad084",
+  "app.py": "5962ce7257670f365e981651a19e0589febcebad50dfdba7af790438f7bf1efb",
+  "dataman/logic.py": "fe54f59e8db2d7761b1ee26c00e27dd54392cc80a8e172e26515a8488b878d07",
+  "dataman/store.py": "73d7129778799024a1dcf8f5d0b1f8e350f3165f9e9acea33aadf452d334358a",
+  "exercise/test_bank.py": "c892c53287164f6d890130fb0679cf7b74c75a1e22b8c71263dab0f33c26340b"
+}
