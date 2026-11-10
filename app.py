@@ -20,10 +20,12 @@ def practice(store):
         return
     while not session.is_finished():
         raw = input(f"Try {session.next_try()}: {PROBLEM.prompt} = ")
-        if not raw.strip().lstrip("-").isdigit():
+        try:
+            answer = int(raw)
+        except ValueError:
             print("Enter a whole number.")
             continue
-        out = session.submit(int(raw))
+        out = session.submit(answer)
         if out.status == "correct":
             print("Correct.")
         elif out.status == "retry":
